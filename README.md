@@ -12,15 +12,17 @@ Through my analysis, I discovered that actors and music directors are top picks 
 
 ### Data collection
 1. Tamil film music is produced by four major record labels. I picked the YouTube channel of the biggest one (Sony Music South). It publishes a wide variety of content such as music videos, movie trailers, music launches, teasers, live performances etc. They also produce music in languages other than Tamil. (link : https://www.youtube.com/@SonyMusicSouth)
-2. I used YouTube API to grab data (in json format) of 'PlaylistItems' - to ensure only Tamil music videos enter the sample. I decided to go with a random sample - and picked the six featured Tamil music playlists on their channel home page. The resulting random sample was 238 videos. 
-   Playlist 1 | https://www.youtube.com/playlist?list=PL_DaWb6RFQc1b64rZiW_PntzXVHwb2HjM
-   Playlist 2 | https://www.youtube.com/playlist?list=PL_DaWb6RFQc0K6jZFSy6dJmUbCfP3ICOA
-   Playlist 3 | https://www.youtube.com/playlist?list=PL_DaWb6RFQc2PmD6eKPJ9gD-2NLyHEbPo
-   Playlist 4 | https://www.youtube.com/playlist?list=PL_DaWb6RFQc0I1nsKc4HOx87xo-gxoVh3
-   Playlist 5 | https://www.youtube.com/playlist?list=PL_DaWb6RFQc3cZM71PbYuFG-mXrH4zl1J
-   Playlist 6 | https://www.youtube.com/playlist?list=PL_DaWb6RFQc2UqJNHQ1TQ9RB-uACJ-ZNv
-
-   Link to YouTube API docs | https://developers.google.com/youtube/v3/docs/playlistItems
+2. I used YouTube API to grab data (in json format) of 'PlaylistItems' - to ensure only Tamil music videos enter the sample. I decided to go with a random sample - and picked the six featured Tamil music playlists on their channel home page. The resulting random sample was 238 videos.
+   
+  | Name | Link |
+  |------|------| 
+  | Playlist 1 | https://www.youtube.com/playlist?list=PL_DaWb6RFQc1b64rZiW_PntzXVHwb2HjM |
+  | Playlist 2 | https://www.youtube.com/playlist?list=PL_DaWb6RFQc0K6jZFSy6dJmUbCfP3ICOA |
+  | Playlist 3 | https://www.youtube.com/playlist?list=PL_DaWb6RFQc2PmD6eKPJ9gD-2NLyHEbPo |
+  | Playlist 4 | https://www.youtube.com/playlist?list=PL_DaWb6RFQc0I1nsKc4HOx87xo-gxoVh3 |
+  | Playlist 5 | https://www.youtube.com/playlist?list=PL_DaWb6RFQc3cZM71PbYuFG-mXrH4zl1J |
+  | Playlist 6 | https://www.youtube.com/playlist?list=PL_DaWb6RFQc2UqJNHQ1TQ9RB-uACJ-ZNv |
+  | YouTube API docs | https://developers.google.com/youtube/v3/docs/playlistItems |
 
 4. I also collected csv files with names of music directors, singers, actors, etc from Wikipedia/IMDB.
    Music directors | https://www.imdb.com/list/ls062857065/
