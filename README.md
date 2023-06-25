@@ -2,7 +2,7 @@
 
 ## An analysis of artist credits on Tamil Youtube music videos
 
-This is my submission for the 2023 Lede Program's first project. In this project, I have applied my learnings from APIs, Python basics, and Pandas. The project web page is here: https://aishyv.github.io/Kollywood-Singers
+This is my submission for the 2023 Lede Program's first project. 
 
 #### Goal
 This project began with a hypothesis that female singers in the Tamil music industry (in India) are not properly credited by record labels on YouTube. The aim of this project was to reveal a possible hierarchy of crediting artists for their work in Tamil film music.
@@ -22,14 +22,15 @@ Through my analysis, I discovered that actors and music directors are top picks 
 
    Link to YouTube API docs | https://developers.google.com/youtube/v3/docs/playlistItems
 
-3. I also collected csv files with names of music directors, singers, actors, etc from Wikipedia/IMDB.
+4. I also collected csv files with names of music directors, singers, actors, etc from Wikipedia/IMDB.
    Music directors | https://www.imdb.com/list/ls062857065/
    Male actors (from 1980s + manually added 2 exceptions from 1970s) | https://en.wikipedia.org/wiki/List_of_Tamil_film_actors
    Female actors (from 1990s) | https://en.wikipedia.org/wiki/List_of_Tamil_film_actresses
    Indian Playback singers | https://en.wikipedia.org/wiki/List_of_Indian_playback_singers
    Movie directors | https://www.imdb.com/list/ls003409050/
 
-4. For the last section of analysis I used IMDB data for all-time credits count of 5 music directors and 5 actors.
+5. For the last section of analysis I used IMDB data for the overall credits count of 5 music directors and 5 actors.
+   
    Anirudh Ravichander | https://www.imdb.com/name/nm4794064/fullcredits
    A.R Rahman | https://m.imdb.com/name/nm0006246/fullcredits
    D. Imman | https://m.imdb.com/name/nm1300033/fullcredits
@@ -61,7 +62,7 @@ Working with dataframes:
 - Moving column position
 - Renaming columns
 - Deleting columns , rows
-- concat!!!
+- pd.concat!!!
 
 ### What I tried to do, 
 1. Calling YouTube API from Python(!!!) - tried to do this, and wasn't able to figure it out in time. So I copied the json data from the YouTube API site resulting in a world record for the most pointless scroll ever in a Jupyter Notebook. 
@@ -69,6 +70,6 @@ Working with dataframes:
 3. Data collection could have been more thorough. A lot of the lists were outdated, had to be updated manually. Also more thought in choosing sample, artists to study etc.
 
 ### What I wanted to do, will probably do the next time
-I spent too long on collecting and cleaning up the data - so analysis could have been more thorough. The last section of the analysis was rushed and not what I had in mind. Will also need to brush up on CSS. 
+I spent too long on collecting and cleaning up the data. Data analysis could have been more thorough. The last section of the analysis in particular was rushed and not what I had in mind. Will also need to brush up on CSS for a nice-r looking webpage. 
 
 The project can be found here: https://aishyv.github.io/Kollywood-Singers/
