@@ -14,7 +14,7 @@ Through my analysis, I discovered that actors and music directors are top picks 
 1. Tamil film music is produced by four major record labels. I picked the YouTube channel of the biggest one (Sony Music South). It publishes a wide variety of content such as music videos, movie trailers, music launches, teasers, live performances etc. They also produce music in languages other than Tamil. (link : https://www.youtube.com/@SonyMusicSouth)
 2. I used YouTube API to grab data (in json format) of 'PlaylistItems' - to ensure only Tamil music videos enter the sample. I decided to go with a random sample - and picked the six featured Tamil music playlists on their channel home page. The resulting random sample was 238 videos.
    
-  | Name | Link |
+  | Playlist | Link |
   |------|------| 
   | Playlist 1 | https://www.youtube.com/playlist?list=PL_DaWb6RFQc1b64rZiW_PntzXVHwb2HjM |
   | Playlist 2 | https://www.youtube.com/playlist?list=PL_DaWb6RFQc0K6jZFSy6dJmUbCfP3ICOA |
@@ -26,7 +26,7 @@ Through my analysis, I discovered that actors and music directors are top picks 
 
 4. I also collected csv files with names of music directors, singers, actors, etc from Wikipedia/IMDB.
    
-  | Name | Link |
+  | Artist type | Link |
   |------|------| 
   | Music directors | https://www.imdb.com/list/ls062857065/ |
   | Male actors (from 1980s + manually added 2 exceptions from 1970s) | https://en.wikipedia.org/wiki/List_of_Tamil_film_actors |
@@ -43,7 +43,6 @@ Through my analysis, I discovered that actors and music directors are top picks 
   | D. Imman | https://m.imdb.com/name/nm1300033/fullcredits |
   | Yuvan Shankar Raja | https://www.imdb.com/name/nm1421776/fullcredits |
   | Harris Jayaraj | https://www.imdb.com/name/nm1069415/fullcredits |
-
   | Joseph Vijay | https://m.imdb.com/name/nm0897201/fullcredits |
   | Sivakarthikeyan | https://m.imdb.com/name/nm4792434/fullcredits |
   | Gautham Karthik | https://m.imdb.com/name/nm5221962/fullcredits |
