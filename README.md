@@ -25,25 +25,30 @@ Through my analysis, I discovered that actors and music directors are top picks 
   | YouTube API docs | https://developers.google.com/youtube/v3/docs/playlistItems |
 
 4. I also collected csv files with names of music directors, singers, actors, etc from Wikipedia/IMDB.
-   Music directors | https://www.imdb.com/list/ls062857065/
-   Male actors (from 1980s + manually added 2 exceptions from 1970s) | https://en.wikipedia.org/wiki/List_of_Tamil_film_actors
-   Female actors (from 1990s) | https://en.wikipedia.org/wiki/List_of_Tamil_film_actresses
-   Indian Playback singers | https://en.wikipedia.org/wiki/List_of_Indian_playback_singers
-   Movie directors | https://www.imdb.com/list/ls003409050/
-
-5. For the last section of analysis I used IMDB data for the overall credits count of 5 music directors and 5 actors.
    
-   Anirudh Ravichander | https://www.imdb.com/name/nm4794064/fullcredits
-   A.R Rahman | https://m.imdb.com/name/nm0006246/fullcredits
-   D. Imman | https://m.imdb.com/name/nm1300033/fullcredits
-   Yuvan Shankar Raja | https://www.imdb.com/name/nm1421776/fullcredits
-   Harris Jayaraj | https://www.imdb.com/name/nm1069415/fullcredits
+  | Name | Link |
+  |------|------| 
+  | Music directors | https://www.imdb.com/list/ls062857065/ |
+  | Male actors (from 1980s + manually added 2 exceptions from 1970s) | https://en.wikipedia.org/wiki/List_of_Tamil_film_actors |
+  | Female actors (from 1990s) | https://en.wikipedia.org/wiki/List_of_Tamil_film_actresses |
+  | Indian Playback singers | https://en.wikipedia.org/wiki/List_of_Indian_playback_singers |
+  | Movie directors | https://www.imdb.com/list/ls003409050/ |
 
-   Joseph Vijay | https://m.imdb.com/name/nm0897201/fullcredits
-   Sivakarthikeyan | https://m.imdb.com/name/nm4792434/fullcredits
-   Gautham Karthik | https://m.imdb.com/name/nm5221962/fullcredits
-   Dhanush | https://m.imdb.com/name/nm1333687/fullcredits
-   Vikram | https://www.imdb.com/name/nm1417314/fullcredits
+6. For the last section of analysis I used IMDB data for the overall credits count of 5 music directors and 5 actors.
+   
+  | Name | Link |
+  |------|------| 
+  | Anirudh Ravichander | https://www.imdb.com/name/nm4794064/fullcredits |
+  | A.R Rahman | https://m.imdb.com/name/nm0006246/fullcredits |
+  | D. Imman | https://m.imdb.com/name/nm1300033/fullcredits |
+  | Yuvan Shankar Raja | https://www.imdb.com/name/nm1421776/fullcredits |
+  | Harris Jayaraj | https://www.imdb.com/name/nm1069415/fullcredits |
+
+  | Joseph Vijay | https://m.imdb.com/name/nm0897201/fullcredits |
+  | Sivakarthikeyan | https://m.imdb.com/name/nm4792434/fullcredits |
+  | Gautham Karthik | https://m.imdb.com/name/nm5221962/fullcredits |
+  | Dhanush | https://m.imdb.com/name/nm1333687/fullcredits | 
+  | Vikram | https://www.imdb.com/name/nm1417314/fullcredits |
 
 ### Data Analysis:
 1. Combine all music video titles into a Python list. Use strip function to standardize and remove random spacing
