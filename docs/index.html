@@ -9,12 +9,50 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
     <link rel="stylesheet" href="style.css">
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:ital,wght@0,500;1,300&display=swap');
+        
+        @font-face { 
+            font-family: 'Roboto', sans-serif;
+            font-family: 'Open Sans', sans-serif; 
+        } 
+        h1{
+            font-family:'Roboto', sans-serif;
+            font-weight: 500;
+            padding: 100px 0px 10px 0px;
+        }
+        h2{
+            font-family: 'Open Sans', sans-serif;
+        }
+        h3{
+            font-family:'Roboto', sans-serif;
+            font-weight: 300;
+            padding: 10px 0px 40px 0px;
+
+        }
+        p{
+            font-family: 'Open Sans', sans-serif;
+        }
+        body{
+            padding-bottom: 100px;
+            background-color: white
+            
+        }
         .text-container {
             max-width: 760px;
             margin: 0 auto;
         }
         .text-container img {
             max-width: 100%;
+        }
+        div{
+            padding-top: 20px
+
+        }
+        img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 100%;
         }
     </style>
 
@@ -23,21 +61,29 @@
 <body>
         <div class="text-container">
             <h1 class="title has-text-centered is-size-1-mobile">Credit where it’s due(unless you’re a singer) </h1>
-            <h2 class="subtitle has-text-centered is-size-3-mobile">The titles of Tamil music videos carry names of actors, music composers and even movie directors. However, the singers are buried in the description box. </h2>
-            <h3 class="subtitle has-text-centered is-size-6-mobile">By Aishwarya V</h3>
+            <h2 class="subtitle has-text-centered is-size-6-mobile">The titles of Tamil music videos carry names of actors, music composers and even movie directors. However, the singers are buried in the description box.</h2>
+        <div class ="text-container">
+            <img src = "image2.png">
+        </div>
+        <div class="text-container">
+            <h3 class="subtitle has-text-centered is-size-6-mobile"><em>By Aishwarya Viswanathan</em></h3>
         </div>
         <div class="text-container">
             <p>Music in India, for the most part, is film music. Earlier this year, a film song made history by bagging the country’s first <a href = "https://www.nytimes.com/2023/03/12/movies/oscars-naatu-naatu-best-original-song.html ">Oscar for ‘Best Original Song'</a>. Global recognition aside, these Oscar and Grammy-winning music composers, singers and lyricists are also worshipped by their regional audience. One such Oscar-winning music composer produced a track that I became briefly obsessed with in the summer of 2019. Playing it for the 1000th time one day, I noticed the singer's name was missing from the title. The title read: name of the movie, name of the song, music director, and film director. The singer went into the description box along with the lyricist and a host of other credits. </p>
+        </div>
+        <div class="text-container">
             <p>That’s odd. I would imagine a singer’s name should occupy title space for a song. </p>
+        </div>
+        <div class="text-container">
             <p>This led me to my analysis of the hierarchy of credits in a sample of ~230 titles of Tamil music videos. Using the YouTube API, I collected music video data from six featured playlists of a popular record label that is one of the largest producers of Tamil film music.</p>
         </div>
         <div class="text-container">
-            <h2 class="subtitle has-text-centered is-size-2-mobile"><em>Analysis</em></h2>
             <p>
                 Film music is inherently collaborative. All film music involves multiple artists including movie directors and actors. In the tamil film industry, music directors in particular have been <a href = "https://www.thenewsminute.com/article/ilaiyaraaja-anirudh-kollywood-s-music-composers-and-their-contributions-82508">celebrated through the years</a>.
             </p>
+        </div>
+        <div class="text-container">
             <p>An analysis of the sample also reflects this popularity, as titles credit music directors almost as much as actors.</p>
-        <div class="chart-section">
             <div class="flourish-embed flourish-hierarchy" data-src="visualisation/14239058"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
         </div>
         <div class="text-container">
