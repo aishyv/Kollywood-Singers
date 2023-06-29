@@ -78,4 +78,4 @@ Working with dataframes:
 ### What I wanted to do, will probably do the next time
 I spent too long on collecting and cleaning up the data. Data analysis could have been more thorough. The last section of the analysis in particular was rushed and not what I had in mind. Will also need to brush up on CSS for a nice-r looking webpage. 
 
-The project can be found here: https://aishyv.github.io/Kollywood-Singers/
+The project can be found here: https://aishyv.github.io/missing-singers/
